@@ -1,0 +1,24 @@
+{
+	"name": "copydata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsSecondstorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": ".csv",
+				"folderPath": "output",
+				"container": "secondcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

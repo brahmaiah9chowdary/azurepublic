@@ -1,0 +1,9 @@
+{
+	"name": "adf2secondset",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "412389f4-be3c-439a-b02b-d35f00e7097b",
+		"tenantId": "18704e7d-fc5e-4e3e-abc8-1358b0f840d6"
+	}
+}
