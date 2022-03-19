@@ -51,6 +51,11 @@
 				]
 			}
 		],
+		"parameters": {
+			"triggerscedule": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
