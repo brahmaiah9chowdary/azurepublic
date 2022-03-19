@@ -22,6 +22,9 @@
 		},
 		"RestService2_properties_typeProperties_url": {
 			"value": "https://jsonplaceholder.typicode.com/posts"
+		},
+		"trigger1_properties_pipeline2_parameters_triggerscedule": {
+			"value": "asaa"
 		}
 	}
 }
