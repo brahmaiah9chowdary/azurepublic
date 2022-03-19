@@ -413,9 +413,10 @@
 					"recurrence": {
 						"frequency": "Day",
 						"interval": 1,
-						"startTime": "2022-03-19T11:40:00",
+						"startTime": "2022-03-19T11:45:00",
 						"endTime": "2022-03-20T06:01:00",
-						"timeZone": "India Standard Time"
+						"timeZone": "India Standard Time",
+						"schedule": {}
 					}
 				}
 			},
