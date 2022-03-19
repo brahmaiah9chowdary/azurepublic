@@ -30,10 +30,6 @@
 		"AzureBlobStorage1_properties_typeProperties_connectionString_secretName": {
 			"type": "string",
 			"defaultValue": "NEW"
-		},
-		"trigger1_properties_pipeline2_parameters_triggerscedule": {
-			"type": "string",
-			"defaultValue": "asaa"
 		}
 	},
 	"variables": {
@@ -389,11 +385,6 @@
 					"elapsedTimeMetric": {},
 					"cancelAfter": {}
 				},
-				"parameters": {
-					"triggerscedule": {
-						"type": "string"
-					}
-				},
 				"annotations": []
 			},
 			"dependsOn": [
@@ -414,9 +405,7 @@
 							"referenceName": "pipeline2",
 							"type": "PipelineReference"
 						},
-						"parameters": {
-							"triggerscedule": "[parameters('trigger1_properties_pipeline2_parameters_triggerscedule')]"
-						}
+						"parameters": {}
 					}
 				],
 				"type": "ScheduleTrigger",
@@ -426,8 +415,7 @@
 						"interval": 1,
 						"startTime": "2022-03-19T11:40:00",
 						"endTime": "2022-03-20T06:01:00",
-						"timeZone": "India Standard Time",
-						"schedule": {}
+						"timeZone": "India Standard Time"
 					}
 				}
 			},
